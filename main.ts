@@ -8,7 +8,7 @@ info.onCountdownEnd(function () {
 info.onScore(0, function () {
     game.gameOver(false)
 })
-info.onScore(5, function () {
+info.onScore(500, function () {
     info.stopCountdown()
     game.showLongText("...", DialogLayout.Bottom)
     game.gameOver(true)
